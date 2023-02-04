@@ -14,14 +14,8 @@ body {
     border: 1px solid #171717;
 
     border-radius: 100px;
-    margin: 0 auto;
-}
-
-.button-cont {
-    position: absolute;
-
-    left: 845px;
-    top: 350px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -41,10 +35,6 @@ body {
 
 .boosts-button {
 
-    position: absolute;
-
-    left: 725px;
-    top: 250px;
     
     width: 162px;
     height: 67px;
@@ -60,11 +50,6 @@ body {
 }
 
 .top-button {
-
-    position: absolute;
-
-    left: 950px;
-    top: 250px;
 
     width: 162px;
     height: 67px;
