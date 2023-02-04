@@ -1,73 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Itim&display=swap');
-
-body {
-    background: #222222;
-}
-
-.button-click {
-    box-sizing: border-box;
-
-    width: 166px;
-    height: 166px;
-
-    background: linear-gradient(180deg, #393939 0%, rgba(57, 57, 57, 0) 102.41%);
-    border: 1px solid #171717;
-
-    border-radius: 100px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-
-.amount {
-    width: 115px;
-    height: 34px;
-
-    font-family: 'Itim';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 30px;
-    line-height: 36px;
-    margin: 0 auto;
-
-    color: #FFFFFF;
-}
-
-.boosts-button {
-
-    
-    width: 162px;
-    height: 67px;
-
-    background: #383838;
-    border-radius: 6px;
-    
-    border:none;
-
-    margin: 0 auto;
-
-    font-family: 'Itim';
-}
-
-.top-button {
-
-    width: 162px;
-    height: 67px;
-
-    background: #383838;
-    border-radius: 6px;
-
-    border:none;
-
-    margin: 0 auto;
-
-    font-family: 'Itim';
-
-}
-
-
-p {
-    font-family: 'Itim';
-    color: white;
-    font-size: 20px;
+button {
+    background: white;
+    width: 250px;
+    height: 250px;
+    font-size: 50px;
+    color: red;
 }
