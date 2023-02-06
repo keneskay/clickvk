@@ -1,27 +1,27 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html>
+  
+  <head>
+    <title>Realme Interface</title>
     <link rel="stylesheet" href="styles.css">
-    <script src = "script.js"></script>
-    <title>Clicker</title>
-</head>
-<body>
-    
+  </head>
+  <body>
+    <div class="volume-panel">
+        <div class="plus-div">
+            <button onclick="PlusVolume()" id="plus" class="control"><img class="img-btn" src="assets/Plus.png"></button>
+        </div>
+        <div class="minus-div">
+            <button onclick="MinusVolume()" id="minus" class="control"><img class="img-btn" src="assets/Minus.png"></button>
+        </div>
+        <img class='audio-logo' src="assets/Audo.png">
+        <div class="volume-background">
+            <div id='snake' class="volume-snake">
+            
+            </div>
+        </div>
+    </div>
 
-    <center><div class="symbols">
-        <br><button  onclick="slot(a=1)" id = 'slot1'>.</button>
-        <button  onclick="slot(a=2)"  id = 'slot2'>.</button>
-        <button  onclick="slot(a=3)"  id = 'slot3'>.</button></br>
-        <br><button  onclick="slot(a=4)"  id = 'slot4'>.</button>
-        <button onclick="slot(a=5)"  id = 'slot5'>.</button>
-        <button onclick="slot(a=6)"  id = 'slot6'>.</button></br>
-        <br><button onclick="slot(a=7)"  id = 'slot7'>.</button>
-        <button onclick="slot(a=8)"  id = 'slot8'>.</button>
-        <button onclick="slot(a=9)"  id = 'slot9'>.</button></br>
-    </div></center>
 
-</body>
+
+    <script src='script.js'></script>
+  </body>
 </html>

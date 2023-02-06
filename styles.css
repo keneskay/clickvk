@@ -1,7 +1,57 @@
-button {
-    background: white;
-    width: 250px;
-    height: 250px;
-    font-size: 50px;
-    color: red;
+body {
+    background: #1E1E1E;;
+  }
+  
+  .volume-panel {
+    margin: 0 auto;
+    width: 64px;
+    height: 320px;
+    background: #D9D9D9;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+  }
+  
+  .volume-background {
+    position: absolute;
+    width: 14px;
+    height: 230px;
+    background: #949494;
+    margin-left: 26px;
+    top: 30px;
+    border-radius: 10px;
+  }
+  
+  .volume-snake {
+    position: absolute;
+    width: 14px;
+    height: 150px;
+    background: blue;
+    border-radius: 10px;
+    margin-top: 0px;
+    transition: height .3s cubic-bezier(0.175, 0.885, 0.32, 1.275) ;
+    transform: rotatex(180deg) translate3d(0, -200px,0);/* the Y-Value shall be higher than the height on hover*/
+    transform-origin: top;
+    margin-top: 30px;
+  }
+  .volume-snake:hover {
+    height: 180px;
+  }
+
+
+.control {
+    background: none;
+    border: none;
+}
+
+.plus-div {
+    margin-left: 75px;
+}
+
+.minus-div {
+    margin-left: 75px;
+}
+
+.audio-logo {
+    margin-left: 25px;
+    margin-top: 105px;
 }
